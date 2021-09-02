@@ -32,8 +32,8 @@ function SideBar({ active }) {
         )
     }
     return (
-        <div className=" flex flex-col   bg-black text-white md:hidden " >
-            {active && <div className=" sidebar flex flex-col ml-5  items-start md:flex-row md:items-center " >
+        <div className=" flex flex-col  bg-black text-white md:hidden " >
+            {active && <div className=" sidebar flex flex-col ml-5 mb-12  items-start md:flex-row md:items-center " >
                 <div className="mt-16">
                     {sideDatas.map((data, index) => (
                         <Navlinks data={data} key={index} index={index} showArrow={showArrow} title={data.title} />
@@ -47,7 +47,7 @@ function SideBar({ active }) {
                          21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path></svg>
                         </div>
 
-                        <p className="flex items-center w-52 h-32" >sucess is not final; failure is not fatal;
+                        <p className="flex items-center w-52 h-32 " >sucess is not final; failure is not fatal;
                             it is the courage to continue that counts.<br />
                             -wiston churchil
                         </p>
