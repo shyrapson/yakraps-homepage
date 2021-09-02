@@ -52,7 +52,7 @@ function Footer() {
                     <FooterLinks data={data} title={data.title} index={index} path={data.path} icon={data.icon} key={index} clickInfo={clickInfo} />
                 ))}
             </div>
-            <div className="btn flex items-center text-sm justify-between ml-36 mr-36">
+            <div className="btn flex items-center text-sm justify-between mr-12 ml-12 md:ml-36 md:mr-36">
                 <button className=" text-pink-500 mt-4 font-bold">Go Back</button>
                 <button className="rounded-md border bg-yellow-400 font-bold h-8 w-24 mt-4">Continue</button>
             </div>

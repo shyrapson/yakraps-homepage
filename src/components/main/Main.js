@@ -17,7 +17,7 @@ function Main() {
         )
     }
     return (
-        <div className="maincontainer grid md:grid-cols-1  justify-self-center  gap-y-3 md:gap-y-0 md:gap-x-14 mt-4  md:justify-self-center ">
+        <div className="maincontainer grid md:grid-cols-1  justify-self-center  gap-y-3 md:gap-y-0 md:gap-x-14 mt-8  md:justify-self-center ">
 
             <div className=" grid md:grid-cols-2  mb-4  md:ml-0 md:mr-0 gap-y-3 md:gap-y-0 md:gap-x-14 mt-4   ">
                 <div>

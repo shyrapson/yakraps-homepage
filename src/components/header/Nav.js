@@ -17,7 +17,7 @@ export const Nav = () => {
         )
     }
     return (
-        <div className="flex  flex flex-col w-full h-full md:items-center md:justify-between md:flex-row md:w-full md:h-12 bg-black text-white" >
+        <div className="flex  flex-col w-full h-full md:items-center md:justify-between md:flex-row md:w-full md:h-12 bg-black text-white" >
             <div className="flex justify-between items-center h-16">
                 <div className="flex items-center flex-start  text-2xl font-bold ml-6">
                     <Link to="/">
