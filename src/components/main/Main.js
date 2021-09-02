@@ -39,7 +39,7 @@ function Main() {
                     <h1 className="font-bold">5,999,999.99</h1>
                     <p className="text-sm mb-4">per annum</p>
                     <h1 className="font-bold">Premium</h1>
-                    <p className="text-sm">100 Users <span className="text-yellow-500 h-8">.</span> All Modules</p>
+                    <p className="text-sm">100 Users <span className="text-yellow-500 h-12">.</span> All Modules</p>
                 </div>
 
                 <div className="firstpart shadow-xl p-8 mr-4 md:mr-0  relative" onClick={() => showIcon('second')}>
