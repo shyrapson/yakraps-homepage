@@ -1,0 +1,26 @@
+.footer a{
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+color: gray;
+
+}
+
+.footerIcon >svg{
+    color: gray;
+    width: 1.5em;
+    height: 1.5em;
+}
+.information >svg{
+    color: rgb(245, 245, 38);
+    width: 2em;
+    height: 2em;
+    border-radius: 50px;
+}
+.btn{
+    border-top: 1px solid rgb(223, 221, 221);
+}
+.modules{
+ width: 75%;
+    border-top: 1px solid rgb(216, 215, 215);;
+}
