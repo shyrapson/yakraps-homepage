@@ -33,7 +33,7 @@ function SideBar({ active }) {
     }
     return (
         <div className=" flex flex-col  bg-black text-white md:hidden " >
-            {active && <div className=" sidebar flex flex-col ml-5 mb-12  items-start md:flex-row md:items-center " >
+            {active && <div className=" sidebar flex flex-col ml-5   items-start md:flex-row md:items-center " >
                 <div className="mt-16">
                     {sideDatas.map((data, index) => (
                         <Navlinks data={data} key={index} index={index} showArrow={showArrow} title={data.title} />
