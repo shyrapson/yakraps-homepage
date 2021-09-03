@@ -22,7 +22,7 @@
 }
 
 .sidebar{
-  height: 80vh;
+  height: 100vh;
   display: flex;
   cursor: pointer;
   align-items: center;
